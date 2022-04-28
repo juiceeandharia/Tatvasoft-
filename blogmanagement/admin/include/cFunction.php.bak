@@ -1,0 +1,27 @@
+<?php
+include('cDatabase.php');
+
+class cFunction
+{
+	public function getAllUsers()
+	{
+		$query="select * from users order by user_id";
+		return $query;
+	}
+	public function getUserByUserID($id)
+	{
+		$query="select * from users where user_id='".$id."'";
+		return $query;
+	}
+	public function getAllBlog()
+	{
+		$query="select * from book order by publish_date,book_id";
+		return $query;
+	}
+	public function getBlogByBlogID($id)
+	{
+		$query="select * from book where book_id='".$id."'";
+		return $query;
+	}
+}
+?>

@@ -1,0 +1,132 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .single-recent-post .recent-post-title {
+  	padding-left:2%;
+  }
+  .single-recent-post .recent-post-img {
+  	width:10%;
+  }
+  .slider-text h1 {
+  	font-size:50px;
+  }
+  .pagination-wrapper {
+  	margin-bottom:25px;
+  }
+  .menu-area {
+    background-color: rgba(255, 255, 255, 0.73);
+  }
+  .menu-logo {
+  	padding-top:20px;
+  }
+
+}
+@media (max-width: 992px){
+  .hidden-xs {
+    display: none;
+  }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+  .logo-title {
+  	display:none;
+  }
+
+  .logo-brand > a {
+   display: inline-block;
+   padding-top: 20px;
+   float:left;
+}
+.menu-area {
+	min-height:auto;
+	 background-color: rgba(255, 255, 255, 0.63);
+}
+.slider-text h1 {
+	font-size:30px;
+	line-height:45px;
+}
+.single-recent-post .recent-post-img {
+	width:30%;
+}
+.single-recent-post .recent-post-title {
+	width:70%;
+}
+
+.pagination-wrapper .newer_post {
+	text-align:center;
+}
+.pagination-wrapper .older_post {
+	text-align:center;
+}
+.pagination-wrapper {
+	padding-bottom:50px;
+}
+.slider-text p {
+	line-height:30px;
+}
+.navbar-nav > li {
+	display:block;
+}
+.nav.navbar-nav li a::after {
+	content:none;
+}
+.top-menu {
+	margin-top:0;
+}
+.navbar-nav {
+    background: #232323;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+}
+.top-menu nav ul li a {
+    color: #fff;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color:#232323;
+}
+.top-menu nav ul li a:hover {
+       background-color: rgb(58, 56, 56);
+}
+.big-social-link ul li a {
+	font-size:28px;
+}
+.themeix-btn-o {
+	margin:0;
+}
+.sidebar-wrapper {
+    padding-left: 0;
+    margin-top: 30px;
+}
+.post-author-txt {
+    width: 100%;
+}
+.visible-xs {
+  display:block;
+}
+.hidden-xs {
+  display: none;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ .single-recent-post .recent-post-img {
+ 	width:12%;
+ }
+}
+ 
