@@ -1,9 +1,0 @@
-<?php
-include('cDatabase.php');
-$id = $_GET['id'];
-
-$mquery = "delete from book where book_id='".$id."'";
-$mres = mysqli_query($cDB, $mquery);
-return $mres;
-								
-?>
